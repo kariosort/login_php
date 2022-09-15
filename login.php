@@ -30,8 +30,8 @@
         <p id="cabecera">Ingrese sus credenciales en los campos establecidos</p>
         <br>
         <form action="config_login/loguear.php" method="POST" id="formlg">
-            <input type="text" name="usuario" placeholder="Usuario" required />
-            <input type="password" name="clave" id="clave"placeholder="Contraseña" required /> 
+            <input type="text" name="usuario" name="usuario" placeholder="Ingrese su usuario" required />
+            <input type="password" name="clave" id="clave"placeholder="Ingrese su contraseña" required /> 
             <button class="btn-mostrar" type="button" onclick="mostrarContrasena()">M</button>
             <input type="submit" name="botonlg" class="botonlg" value="Iniciar Sesión">
         </form>
@@ -43,5 +43,7 @@
 
     <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
     <script src="./js/funciones.js"></script>
+   
+}
 </body>
 </html>

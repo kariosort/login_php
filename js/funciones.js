@@ -6,3 +6,5 @@ function mostrarContrasena(){
         tipo.type = "password";
     }
 }
+
+
